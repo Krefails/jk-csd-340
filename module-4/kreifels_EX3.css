@@ -1,0 +1,53 @@
+#title {
+    text-align: center;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+#right {
+    width: 45%;
+    float: right;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#left {
+    width: 45%;
+    float: left;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+    font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#right ul {
+    list-style-type: upper-roman;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+#footer {
+    width: 100%;
+    float: right;
+    margin-top: 60px;
+    font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+#favorite {
+    text-decoration: none;
+}
+
+#toTop {
+    float: right;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
