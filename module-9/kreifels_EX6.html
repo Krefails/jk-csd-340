@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CSD 340 Web Development with HTML and CSS</title>
+		<link rel="stylesheet" href="kreifels_EX6.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Assignment 9.2: Build a Web Page - Part 6</h1>
+		</header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</nav>
+		<div id="container">
+			<div class="card">
+				<div class="card-title">Book Entry Form</div>
+				<div class="card-content">
+					<div class="form">
+						<div class="form-field">
+							<label for="txtBookName">Book name.</label>
+							<input type="type" name="txtBookName" id="txtBookName" class="input" />
+						</div>
+						<div class="form-field">
+							<button type="submit" class="btn btn-primary full-width">
+								Create Book
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br /><br />
+
+			<div class="card">
+				<div class="card-title">Top 5 Favorite Books/Series</div>
+
+				<div class="card-content">
+					<br />
+					<table id="books">
+						<tr>
+							<th>Book Id</th>
+							<th>Book Name</th>
+						</tr>
+						<tr>
+							<td>100</td>
+							<td>Gospel of Mark, 66-74 AD</td>
+						</tr>
+
+						<tr>
+							<td>101</td>
+							<td>Bakemonogatari, all 28 volumes. By Nisio Isin, 2005 - 2021</td>
+						</tr>
+						<tr>
+							<td>102</td>
+							<td>
+								Skeleton Knight In Another World, all 10 volumes. Ennki Hakari, 2015
+								- Present
+							</td>
+						</tr>
+						<tr>
+							<td>103</td>
+							<td>Overlord, all 14 volumes. Kugane Maruyama, 2012 - Present</td>
+						</tr>
+						<tr>
+							<td>104</td>
+							<td>
+								The Science of Intelligent Decision Making. By Peter Hollins, 2017
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p><a href="bellevue.edu" target="_blank">Bellevue University</a></p>
+			<p>-</p>
+			<p>
+				&copy;
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+			</p>
+		</footer>
+	</body>
+</html>
